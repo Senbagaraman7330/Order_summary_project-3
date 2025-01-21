@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+:root{
+
+    /* Primary color  */
+    --clr-Pale_blue: #e0e8ff;
+    --clr-Bright_blue: #3829e0;
+
+    /* Neutral color  */
+    --clr-Very_pale_blue: #f5f7ff;
+    --clr-Desaturated_blue: #7280a7;
+    --clr-Dark_blue: #1f2f56;
+
+    /* Font size  */
+    --fs-paragraph:16px;
+
+    /* Font family  */
+    --ff-body:"DM Sans", serif;
+
+    /* Font font-weight  */
+    --fw-500:500;
+    --fw-700:700;
+    --fw-900:900;
+}
