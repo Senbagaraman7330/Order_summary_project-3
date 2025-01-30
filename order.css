@@ -22,3 +22,53 @@
     --fw-700:700;
     --fw-900:900;
 }
+
+/* reset the default value  */
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body modification  */
+body{
+    font-family: var(--ff-body);
+}
+
+/* Main container of the page  */
+.main_container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-inline: auto ;
+    max-width: 30rem;
+    text-align: center;
+    background-color: var(--clr-Very_pale_blue);
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+/* Image size  */
+#hero {
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+/* whole text of the page style  */
+.text_container{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+/* Annual plan of the page  */
+.annual-container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+
+}
