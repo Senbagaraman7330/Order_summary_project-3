@@ -5,6 +5,7 @@
     /* Primary color  */
     --clr-Pale_blue: #e0e8ff;
     --clr-Bright_blue: #3829e0;
+    --clr-Bright_blue_light: #5649e3;
 
     /* Neutral color  */
     --clr-Very_pale_blue: #f5f7ff;
@@ -42,9 +43,9 @@ body{
     margin-inline: auto ;
     max-width: 30rem;
     text-align: center;
-    background-color: var(--clr-Very_pale_blue);
     box-sizing: border-box;
     border-radius: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Image size  */
@@ -59,10 +60,17 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 1rem;
 }
-
+.text_container h1{
+    color: var(--clr-Dark_blue);
+    font-weight: var(--fw-900);
+}
+#millions{
+    color: var(--clr-Desaturated_blue);
+    font-weight: var(--fs-paragraph);
+}
 /* Annual plan of the page  */
 .annual-container{
     max-width: 100%;
@@ -70,5 +78,53 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 2rem;
-
+    background-color: var(--clr-Very_pale_blue);
+    border-radius: 0.5rem;
+    padding: 1.1rem 1.5rem;
+    max-width: 340px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* annual link style  */
+.annual-container a{
+    text-decoration: none;
+    font-weight: var(--fw-500);
+}
+.annual-container a:hover{
+    color: var(--clr-Bright_blue);
+} 
+
+.annual-container h4{
+    font-weight: var(--fw-500);
+    color: var(--clr-Desaturated_blue);
+}
+
+.annual-container h3{
+    color: var(--clr-Dark_blue);
+}
+
+/* give sytle for click button of the page  */
+#button_pay{
+    padding: 0.7rem 6.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--clr-Bright_blue);
+    color: white;
+    font-weight: var(--fw-700);
+    box-shadow: 0px 4px 10px var(--clr-Pale_blue);
+}
+#button_pay:hover{
+    background-color: var(--clr-Bright_blue_light);
+}
+
+/* cancel link of the page style  */
+#Cancel_order{
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: var(--clr-Desaturated_blue);
+    font-weight: var(--fw-700);
+}
+#Cancel_order:hover{
+    color: var(--clr-Dark_blue);
+}
+
